@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: #E0F2F1;
+    background-image: url(resources/background.png);
+    background-size: contain;
+}
+#flexbox {
+    display: flex;
+    margin: 3%;
+    margin-top: 6%;
+}
+#flexbox > div:nth-child(1){
+    max-width: max-content;
+    border-radius: 30px;
+    border: thin solid #00796B;
+    background-color: #A7FFEB;
+}
+#flexbox > div > h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    padding: 0px 15px 0px 15px;
+    border-bottom: 2px solid #00796B;
+    max-width: max-content;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: unset;
+    margin-bottom: unset;
+    background: white;
+}
+#flexbox > div > h2{
+    background-color: #A7FFEB;
+    margin-top: unset;
+    margin-bottom: unset;
+    padding: 10px;
+}
+#flexbox > div > div {
+    background-color: #B2DFDB;
+    padding: 21px 0px 21px 20px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-bottom: 22px;
+}
+
+#flexbox > div:nth-child(2) > div {
+    cursor: default;
+}
+
+#flexbox > div > div:last-child {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 0px;
+}
+#flexbox > div:nth-child(2) {
+    /* background-color: #A7FFEB;
+    border: thin solid #00796B; */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* border-radius: 30px; */
+}
+#answer {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A7FFEB;
+    justify-content: center;
+}
+#answer > div {
+    text-align: center;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#flexbox > div:nth-child(2) > img {
+    height: 80%;
+}
+#flexbox > div:nth-child(3) {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 0px;
+    column-gap: 15px;
+    background-color: #A7FFEB;
+    border: thin solid #00796B;
+    border-radius: 30px;
+    padding: 20px;
+}
+#flexbox > div:nth-child(3) > div {
+    height: 40px;
+    width: 40px;
+    padding: 20px 20px 20px 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: x-large;
+    border: thin solid #00796B;
+    border-radius: 40px;
+}
+
+
