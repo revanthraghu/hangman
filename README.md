@@ -4,7 +4,6 @@ Hangman game using vanilla html, css and javascript. [Visit Website](https://pur
 ## Noteworthy features
  - The game has the option to show names from five categories: movies, TV shows, famous people, countries and random.
  - All the images for each outcome of the game were created by me from sratch using online drawing tools.
-<br/>
-<br/>
+
 ## Screenshot of the game
 ![](/hangman1.png)
