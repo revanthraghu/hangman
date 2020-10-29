@@ -1,2 +1,2 @@
-# masai-sprint-2
-Hangman game using pure html css and javascript
+# Hangman
+Hangman game using vanilla html, css and javascript
