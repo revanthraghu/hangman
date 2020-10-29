@@ -6,4 +6,5 @@ Hangman game using vanilla html, css and javascript. [Visit Website](https://pur
  - All the images for each outcome of the game were created by me from sratch using online drawing tools.
 <br/>
 <br/>
+## Screenshot of the game
 ![](/hangman1.png)
